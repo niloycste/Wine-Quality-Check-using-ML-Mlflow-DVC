@@ -1,5 +1,5 @@
 # Wine-Quality-Check-using-ML-Mlflow-DVC
-
+I build a machine learning model to predict the quality of wine, employing various algorithms. Ultimately, I opted for the Elastic Net model, which yielded an accuracy of approximately 81%.
 
 ## Workflows
 
@@ -26,11 +26,11 @@ https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.8 -y
+conda create -n wine python=3.8 -y
 ```
 
 ```bash
-conda activate mlproj
+conda activate wine
 ```
 
 
@@ -79,3 +79,7 @@ export MLFLOW_TRACKING_USERNAME=niloycste
 export MLFLOW_TRACKING_PASSWORD=55343c50b515f85d83d1bbecdf5e45f6664231d3
 
 ```
+
+## Final Output
+ <img src = "images/wine1.png" width="" height="">
+  <img src = "images/wine2.png" width="" height="">
